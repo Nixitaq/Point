@@ -4,12 +4,11 @@ using namespace std;
 
 int main()
 {
-	Point obj;
-	obj.Print();
+	Point::PrintCount();
 
-	Point obj1(10, 20);
-	obj1.Print();
+	Point a(1, 2), b(3, 4), c(5, 6);
 
-	obj1.Init();
-	obj1.Print();
+	Point::PrintCount();
+
+	
 }
